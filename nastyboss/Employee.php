@@ -16,6 +16,17 @@ abstract class Employee
         $this->name = $name;
     }
 
+    /**
+     * factory
+     * @param string $name
+     * @return static
+     */
+    public static function create(string $name) {
+        return new static($name);
+    }
+
+
+
     public function getId() {
         return $this->id;
     }

@@ -40,6 +40,10 @@ class ComposerStaticInit570744a6db0d51d6322e4b44b0bc0df1
         'wzorce\\nastyboss\\Employee' => __DIR__ . '/../..' . '/nastyboss/Employee.php',
         'wzorce\\nastyboss\\Minion' => __DIR__ . '/../..' . '/nastyboss/Minion.php',
         'wzorce\\nastyboss\\NastyBoss' => __DIR__ . '/../..' . '/nastyboss/NastyBoss.php',
+        'wzorce\\strategy\\output\\ArrayOutput' => __DIR__ . '/../..' . '/strategy/output/strategy/ArrayOutput.php',
+        'wzorce\\strategy\\output\\Client' => __DIR__ . '/../..' . '/strategy/output/Client.php',
+        'wzorce\\strategy\\output\\JsonOutput' => __DIR__ . '/../..' . '/strategy/output/strategy/JsonOutput.php',
+        'wzorce\\strategy\\output\\OutputInterface' => __DIR__ . '/../..' . '/strategy/output/strategy/OutputInterface.php',
         'wzroce\\nastyboss\\ClueUp' => __DIR__ . '/../..' . '/nastyboss/ClueUp.php',
     );
 

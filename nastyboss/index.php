@@ -16,6 +16,7 @@ $boss = new NastyBoss();
 $boss->addEmployee(new Minion("Adam"));
 $boss->addEmployee(new ClueUp("Maciek"));
 $boss->addEmployee(new Minion("Krzysiek"));
+$boss->addEmployee(Minion::create('Andrzej'));
 
 $boss->removeEmployee(2);
 

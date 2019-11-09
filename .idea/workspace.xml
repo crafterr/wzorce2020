@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/findpropertyinobjarr/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/output/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/output/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/output/strategy/ArrayOutput.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/output/strategy/JsonOutput.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/output/strategy/OutputInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wzorce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wzorce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nastyboss/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nastyboss/NastyBoss.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/NastyBoss.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nastyboss/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -40,11 +42,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/findpropertyinobjarr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy/output" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/strategy/output" />
       <recent name="$PROJECT_DIR$/findpropertyinobjarr" />
     </key>
   </component>
@@ -71,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573289145966</updated>
       <workItem from="1573289148019" duration="2176000" />
-      <workItem from="1573293383311" duration="2911000" />
+      <workItem from="1573293383311" duration="3641000" />
+      <workItem from="1573310082039" duration="526000" />
     </task>
     <servers />
   </component>

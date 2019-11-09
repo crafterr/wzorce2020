@@ -9,5 +9,9 @@ return array(
     'wzorce\\nastyboss\\Employee' => $baseDir . '/nastyboss/Employee.php',
     'wzorce\\nastyboss\\Minion' => $baseDir . '/nastyboss/Minion.php',
     'wzorce\\nastyboss\\NastyBoss' => $baseDir . '/nastyboss/NastyBoss.php',
+    'wzorce\\strategy\\output\\ArrayOutput' => $baseDir . '/strategy/output/strategy/ArrayOutput.php',
+    'wzorce\\strategy\\output\\Client' => $baseDir . '/strategy/output/Client.php',
+    'wzorce\\strategy\\output\\JsonOutput' => $baseDir . '/strategy/output/strategy/JsonOutput.php',
+    'wzorce\\strategy\\output\\OutputInterface' => $baseDir . '/strategy/output/strategy/OutputInterface.php',
     'wzroce\\nastyboss\\ClueUp' => $baseDir . '/nastyboss/ClueUp.php',
 );
