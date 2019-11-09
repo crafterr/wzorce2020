@@ -1,0 +1,15 @@
+{
+    "name": "crafter/wzorce",
+    "authors": [
+        {
+            "name": "crafterr",
+            "email": "adam@crafter.net.pl"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.3"
+    },
+    "autoload": {
+        "classmap": ["nastyboss"]
+    }
+}
