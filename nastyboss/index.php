@@ -17,4 +17,6 @@ $boss->addEmployee(new Minion("Adam"));
 $boss->addEmployee(new ClueUp("Maciek"));
 $boss->addEmployee(new Minion("Krzysiek"));
 
+$boss->removeEmployee(2);
+
 dump($boss);
