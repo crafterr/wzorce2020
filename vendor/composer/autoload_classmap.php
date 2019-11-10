@@ -6,6 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'wzorce\\factory\\simple\\ApptEncoder' => $baseDir . '/factory/simple/AppEncoder.php',
+    'wzorce\\factory\\simple\\BlogApptEncoder' => $baseDir . '/factory/simple/BlogApptEncoder.php',
+    'wzorce\\factory\\simple\\BloggsCommsManager' => $baseDir . '/factory/simple/BloggsCommsManager.php',
+    'wzorce\\factory\\simple\\CommsManager' => $baseDir . '/factory/simple/CommsManager.php',
+    'wzorce\\factory\\simple\\MegaApptEncoder' => $baseDir . '/factory/simple/MegaApptEncoder.php',
+    'wzorce\\factory\\simple\\MegaCommsManager' => $baseDir . '/factory/simple/MegaCommsManager.php',
     'wzorce\\nastyboss\\Employee' => $baseDir . '/nastyboss/Employee.php',
     'wzorce\\nastyboss\\Minion' => $baseDir . '/nastyboss/Minion.php',
     'wzorce\\nastyboss\\NastyBoss' => $baseDir . '/nastyboss/NastyBoss.php',

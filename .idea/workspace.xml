@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/strategy/output/Client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/output/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/output/strategy/ArrayOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/output/strategy/JsonOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/output/strategy/OutputInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/BloggsApptEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/BloggsCommsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/BloggsTtdEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/CommsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/ContactApptEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/Encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaApptEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaCommsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaContactEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaTtdEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/AppEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/BlogApptEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/BloggsCommsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/CommsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/MegaApptEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/MegaCommsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/simple/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nastyboss/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nastyboss/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -42,11 +54,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy/output" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/factory/abstractfactory" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/factory/abstractfactory" />
+      <recent name="$PROJECT_DIR$/factory/abstract" />
+      <recent name="$PROJECT_DIR$/factory/simple" />
       <recent name="$PROJECT_DIR$/strategy/output" />
       <recent name="$PROJECT_DIR$/findpropertyinobjarr" />
     </key>
@@ -75,7 +91,7 @@
       <updated>1573289145966</updated>
       <workItem from="1573289148019" duration="2176000" />
       <workItem from="1573293383311" duration="3641000" />
-      <workItem from="1573310082039" duration="526000" />
+      <workItem from="1573310082039" duration="4297000" />
     </task>
     <servers />
   </component>

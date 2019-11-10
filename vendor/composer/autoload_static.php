@@ -37,6 +37,12 @@ class ComposerStaticInit570744a6db0d51d6322e4b44b0bc0df1
     );
 
     public static $classMap = array (
+        'wzorce\\factory\\simple\\ApptEncoder' => __DIR__ . '/../..' . '/factory/simple/AppEncoder.php',
+        'wzorce\\factory\\simple\\BlogApptEncoder' => __DIR__ . '/../..' . '/factory/simple/BlogApptEncoder.php',
+        'wzorce\\factory\\simple\\BloggsCommsManager' => __DIR__ . '/../..' . '/factory/simple/BloggsCommsManager.php',
+        'wzorce\\factory\\simple\\CommsManager' => __DIR__ . '/../..' . '/factory/simple/CommsManager.php',
+        'wzorce\\factory\\simple\\MegaApptEncoder' => __DIR__ . '/../..' . '/factory/simple/MegaApptEncoder.php',
+        'wzorce\\factory\\simple\\MegaCommsManager' => __DIR__ . '/../..' . '/factory/simple/MegaCommsManager.php',
         'wzorce\\nastyboss\\Employee' => __DIR__ . '/../..' . '/nastyboss/Employee.php',
         'wzorce\\nastyboss\\Minion' => __DIR__ . '/../..' . '/nastyboss/Minion.php',
         'wzorce\\nastyboss\\NastyBoss' => __DIR__ . '/../..' . '/nastyboss/NastyBoss.php',
