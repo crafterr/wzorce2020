@@ -2,29 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/BloggsApptEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/BloggsCommsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/BloggsTtdEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/CommsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/ContactApptEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/Encoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaApptEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaCommsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaContactEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/MegaTtdEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/abstractfactory/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/AppEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/BlogApptEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/BloggsCommsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/CommsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/MegaApptEncoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/MegaCommsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/simple/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/Button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/Form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/InputElement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/Renderable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/TextArea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/TextElement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/renderable/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/units/Army.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/units/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/units/unit/Archer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/units/unit/LaserCannonUnit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/units/unit/Maruder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/units/unit/Unit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Forest/EarthForest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Forest/Forest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Forest/MarsForest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Plain/EarthPlain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Plain/MarsPlain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Plain/Plain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Sea/EarthSea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Sea/MarsSea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/Sea/Sea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/TerrainFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/civilization/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,17 +61,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/factory/abstractfactory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/composite/renderable" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/composite/units/unit" />
+      <recent name="$PROJECT_DIR$/factory/civilization/Sea" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/composite/renderable" />
+      <recent name="$PROJECT_DIR$/composite/units" />
+      <recent name="$PROJECT_DIR$/factory/civilization" />
       <recent name="$PROJECT_DIR$/factory/abstractfactory" />
       <recent name="$PROJECT_DIR$/factory/abstract" />
-      <recent name="$PROJECT_DIR$/factory/simple" />
-      <recent name="$PROJECT_DIR$/strategy/output" />
-      <recent name="$PROJECT_DIR$/findpropertyinobjarr" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +102,10 @@
       <updated>1573289145966</updated>
       <workItem from="1573289148019" duration="2176000" />
       <workItem from="1573293383311" duration="3641000" />
-      <workItem from="1573310082039" duration="4297000" />
+      <workItem from="1573310082039" duration="4781000" />
+      <workItem from="1573398336790" duration="1679000" />
+      <workItem from="1573751813539" duration="1180000" />
+      <workItem from="1573753355529" duration="709000" />
     </task>
     <servers />
   </component>
