@@ -48,6 +48,7 @@ class ComposerStaticInit570744a6db0d51d6322e4b44b0bc0df1
         'wzorce\\composite\\units\\unit\\LaserCannonUnit' => __DIR__ . '/../..' . '/composite/units/unit/LaserCannonUnit.php',
         'wzorce\\composite\\units\\unit\\Maruder' => __DIR__ . '/../..' . '/composite/units/unit/Maruder.php',
         'wzorce\\composite\\units\\unit\\Unit' => __DIR__ . '/../..' . '/composite/units/unit/Unit.php',
+        'wzorce\\composite\\units\\unit\\UnitException' => __DIR__ . '/../..' . '/composite/units/unit/UnitException.php',
         'wzorce\\factory\\abstractfactory\\BloggsApptEncoder' => __DIR__ . '/../..' . '/factory/abstractfactory/BloggsApptEncoder.php',
         'wzorce\\factory\\abstractfactory\\BloggsCommsManager' => __DIR__ . '/../..' . '/factory/abstractfactory/BloggsCommsManager.php',
         'wzorce\\factory\\abstractfactory\\BloggsContactEncoder' => __DIR__ . '/../..' . '/factory/abstractfactory/ContactApptEncoder.php',

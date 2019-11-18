@@ -6,7 +6,7 @@ namespace wzorce\composite\units;
 
 use wzorce\composite\units\unit\Unit;
 
-class Army
+class Army extends Unit
 {
     /**
      * @var array
@@ -17,7 +17,23 @@ class Army
      * @param Unit $unit
      */
     public function addUnit(Unit $unit) {
+        if (in_array($unit, $this->units, true)) {
+            return;
+        }
         array_push($this->units, $unit);
+    }
+
+    /**
+     * @param Unit $unit
+     */
+    public function removeUnit(Unit $unit)
+    {
+        $inx = array_search($unit,$this->units,true);
+
+        if (is_int($inx)) {
+            array_splice($this->units,$inx,1,[]);
+        }
+
     }
 
     /**
@@ -32,5 +48,12 @@ class Army
             $ret += $unit->bombardStrength();
         }
         return $ret;
+    }
+
+    /**
+     * @return array
+     */
+    public function __toArray() {
+        return $this->units;
     }
 }

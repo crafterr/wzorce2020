@@ -17,4 +17,16 @@ $army->addUnit($unit1);
 $army->addUnit($unit2);
 $army->addUnit($unit3);
 
+$army->removeUnit($unit2);
+
+dump($army->__toArray());
+
 dump($army->bombardStrength());
+
+
+/*$arr = ['adam','marek','grzesiek'];
+
+$index = array_search('marek',$arr,true);
+
+array_splice($arr,$index,1,[]);
+dump($arr);*/

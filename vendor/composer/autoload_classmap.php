@@ -17,6 +17,7 @@ return array(
     'wzorce\\composite\\units\\unit\\LaserCannonUnit' => $baseDir . '/composite/units/unit/LaserCannonUnit.php',
     'wzorce\\composite\\units\\unit\\Maruder' => $baseDir . '/composite/units/unit/Maruder.php',
     'wzorce\\composite\\units\\unit\\Unit' => $baseDir . '/composite/units/unit/Unit.php',
+    'wzorce\\composite\\units\\unit\\UnitException' => $baseDir . '/composite/units/unit/UnitException.php',
     'wzorce\\factory\\abstractfactory\\BloggsApptEncoder' => $baseDir . '/factory/abstractfactory/BloggsApptEncoder.php',
     'wzorce\\factory\\abstractfactory\\BloggsCommsManager' => $baseDir . '/factory/abstractfactory/BloggsCommsManager.php',
     'wzorce\\factory\\abstractfactory\\BloggsContactEncoder' => $baseDir . '/factory/abstractfactory/ContactApptEncoder.php',
