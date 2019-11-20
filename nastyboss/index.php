@@ -13,11 +13,18 @@ $boss = new NastyBoss();
 //minion - slugus
 //clueup - pieniacz
 //
-$boss->addEmployee(new Minion("Adam"));
-$boss->addEmployee(new ClueUp("Maciek"));
-$boss->addEmployee(new Minion("Krzysiek"));
-$boss->addEmployee(Minion::create('Andrzej'));
+$adam = new Minion("Adam");
+$boss->addEmployee($adam);
+$maciek = new ClueUp('Maciek');
+$boss->addEmployee($maciek);
+$krzysiek = new Minion("Krzysiek");
+$boss->addEmployee($krzysiek);
+$andrzej = Minion::create("Andrzej");
+$boss->addEmployee($andrzej);
 
-$boss->removeEmployee(2);
+//$boss->removeEmployee($maciek);
+dump($boss->removeEmployee($andrzej));
 
-dump($boss);
+//$boss->removeEmployee(2);
+
+dump($boss->getEmployes());

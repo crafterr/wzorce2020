@@ -9,8 +9,14 @@ class NastyBoss
         $this->employees[] = $employee;
     }
 
-    public function removeEmployee(int $id) {
-        $searchedValue = $id; // Value to search.
+    public function removeEmployee(Employee $employee) {
+        $index = array_search($employee,$this->employees,true);
+
+        if (is_int($index)) {
+            array_splice($this->employees,$index,1,[]);
+        }
+        return $index;
+       /* $searchedValue = $id; // Value to search.
         $neededObject = array_filter(
             $this->employees,
             function ($e) use ($searchedValue) {
@@ -25,7 +31,7 @@ class NastyBoss
 
                 }
             }
-        );
+        );*/
 
     }
 
@@ -33,4 +39,7 @@ class NastyBoss
 
     }
 
+    public function getEmployes():array {
+        return $this->employees;
+    }
 }

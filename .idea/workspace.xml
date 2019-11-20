@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/composite/units/unit/UnitException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/simple/Element.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/simple/ElementDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/simple/TextAreaDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/simple/Textarea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/simple/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/DiamondDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/Forest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/Plains.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/PollutionDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/Tile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/TileDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/tile/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite/units/Army.php" beforeDir="false" afterPath="$PROJECT_DIR$/composite/units/Army.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite/units/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/composite/units/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite/units/unit/Archer.php" beforeDir="false" afterPath="$PROJECT_DIR$/composite/units/unit/Archer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite/units/unit/Unit.php" beforeDir="false" afterPath="$PROJECT_DIR$/composite/units/unit/Unit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nastyboss/NastyBoss.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/NastyBoss.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nastyboss/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -26,6 +36,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="wzorce.devel" id="8497a0c8-c23c-4a89-ab3e-b18d35c26580" name="wzorce.devel" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
@@ -39,21 +54,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/composite/renderable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator/simple" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/composite/units/unit" />
-      <recent name="$PROJECT_DIR$/factory/civilization/Sea" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/decorator/simple" />
+      <recent name="$PROJECT_DIR$/decorator/tile" />
       <recent name="$PROJECT_DIR$/composite/renderable" />
       <recent name="$PROJECT_DIR$/composite/units" />
       <recent name="$PROJECT_DIR$/factory/civilization" />
-      <recent name="$PROJECT_DIR$/factory/abstractfactory" />
-      <recent name="$PROJECT_DIR$/factory/abstract" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/composite/units/unit" />
+      <recent name="$PROJECT_DIR$/factory/civilization/Sea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +99,8 @@
       <workItem from="1573398336790" duration="1679000" />
       <workItem from="1573751813539" duration="1180000" />
       <workItem from="1573753355529" duration="1420000" />
-      <workItem from="1574095989527" duration="1169000" />
+      <workItem from="1574095989527" duration="3835000" />
+      <workItem from="1574265896011" duration="2096000" />
     </task>
     <servers />
   </component>
@@ -103,5 +119,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/nastyboss/NastyBoss.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/nastyboss/NastyBoss.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/nastyboss/NastyBoss.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/nastyboss/NastyBoss.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
