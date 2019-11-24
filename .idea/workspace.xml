@@ -2,24 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/decorator/simple/Element.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/simple/ElementDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/simple/TextAreaDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/simple/Textarea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/simple/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/DiamondDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/Forest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/Plains.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/PollutionDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/Tile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/TileDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/tile/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstracter/Animal/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstracter/Animal/Dog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstracter/Animal/Lion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstracter/Animal/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstracter/Vehicle/Truck.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstracter/Vehicle/Vehicle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/BookingDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/ExtraBed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/Wifi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/rooms/Booking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/rooms/DoubleRoomBooking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/booking/rooms/SingleRoomBooking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/component/Component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/component/ConcreteComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/component/ConcreteDecoratorComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/component/Decorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/component/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasada/example1/Fasada.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasada/example1/subsystem/SubSystem1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasada/example1/subsystem/SubSystem2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasada/example1/subsystem/SubSystem3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter/Expression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter/InterpreterContext.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nastyboss/NastyBoss.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/NastyBoss.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nastyboss/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nastyboss/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/AmqpCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/AmqpCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ArgsStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ArgsStub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/Caster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/Caster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ClassStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ClassStub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ConstStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ConstStub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/CutStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/CutStub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DOMCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DOMCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DateCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DateCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DsCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DsCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/GmpCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/GmpCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/IntlCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/IntlCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/LinkStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/LinkStub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/MemcachedCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/MemcachedCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/PdoCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/PdoCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ProxyManagerCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ProxyManagerCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/RedisCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/RedisCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ResourceCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ResourceCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/StubCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/StubCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/DumperInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/DumperInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Stub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Stub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Command/ServerDumpCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Command/ServerDumpCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Test/VarDumperTestTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Test/VarDumperTestTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/DateCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/ExceptionCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/GmpCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/IntlCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/MemcachedCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/PdoCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/RedisCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Command/Descriptor/CliDescriptorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Command/Descriptor/HtmlDescriptorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Dumper/HtmlDumperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Dumper/ServerDumperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/FooInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/NotLoadableClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/dump_server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Fixtures/xml_reader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Server/ConnectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/phpunit.xml.dist" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,21 +139,24 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator/simple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/abstracter" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/decorator/simple" />
-      <recent name="$PROJECT_DIR$/decorator/tile" />
-      <recent name="$PROJECT_DIR$/composite/renderable" />
-      <recent name="$PROJECT_DIR$/composite/units" />
-      <recent name="$PROJECT_DIR$/factory/civilization" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/abstracter/Animal" />
+      <recent name="$PROJECT_DIR$/fasada/example1/subsystem" />
+      <recent name="$PROJECT_DIR$/decorator/booking/rooms" />
       <recent name="$PROJECT_DIR$/composite/units/unit" />
       <recent name="$PROJECT_DIR$/factory/civilization/Sea" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/abstracter" />
+      <recent name="$PROJECT_DIR$/interpreter" />
+      <recent name="$PROJECT_DIR$/fasada/example1" />
+      <recent name="$PROJECT_DIR$/decorator/component" />
+      <recent name="$PROJECT_DIR$/decorator/booking" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,7 +188,10 @@
       <workItem from="1573751813539" duration="1180000" />
       <workItem from="1573753355529" duration="1420000" />
       <workItem from="1574095989527" duration="3835000" />
-      <workItem from="1574265896011" duration="2096000" />
+      <workItem from="1574265896011" duration="4078000" />
+      <workItem from="1574277565105" duration="444000" />
+      <workItem from="1574356812426" duration="408000" />
+      <workItem from="1574591101570" duration="2077000" />
     </task>
     <servers />
   </component>
