@@ -13,3 +13,6 @@ $alex = new \wzorce\abstracter\Animal\Lion('Alex');
 $dino = new \wzorce\abstracter\Animal\Dog("Dino");
 dump($alex->roar());
 dump($dino->roar());
+
+dump($alex->run());
+dump($dino->run());
