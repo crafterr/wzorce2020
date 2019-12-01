@@ -10,6 +10,6 @@
         "symfony/var-dumper": "^4.3"
     },
     "autoload": {
-        "classmap": ["nastyboss","findpropertyinobjarr","strategy", "factory","composite","decorator","fasada","interpreter","abstracter"]
+        "classmap": ["nastyboss","findpropertyinobjarr","strategy", "factory","composite","decorator","fasada","interpreter","abstracter","observer"]
     }
 }
