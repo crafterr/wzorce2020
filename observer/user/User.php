@@ -40,5 +40,9 @@ class User implements \SplSubject
         $this->notify();
     }
 
+    public function getEmail() {
+        return $this->email;
+    }
+
 
 }

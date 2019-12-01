@@ -8,7 +8,8 @@ class AddToMailSth extends UserObserver
 {
     public function doUpdate(User $user)
     {
-        print __CLASS__ . ":   dodaje cos do maila\n";
+        $email = $user->getEmail();
+        print $email . ":   zmieniam maila na @innego\n";
     }
 
 }
