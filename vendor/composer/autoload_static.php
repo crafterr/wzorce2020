@@ -125,6 +125,7 @@ class ComposerStaticInit570744a6db0d51d6322e4b44b0bc0df1
         'wzorce\\observer\\splobserver\\LoginObserver' => __DIR__ . '/../..' . '/observer/splobserver/LoginObserver.php',
         'wzorce\\observer\\splobserver\\SecurityMonitor' => __DIR__ . '/../..' . '/observer/splobserver/SecurityMonitor.php',
         'wzorce\\observer\\user\\AddToMailSth' => __DIR__ . '/../..' . '/observer/user/AddToMailSth.php',
+        'wzorce\\observer\\user\\LoggerMail' => __DIR__ . '/../..' . '/observer/user/LoggerMail.php',
         'wzorce\\observer\\user\\User' => __DIR__ . '/../..' . '/observer/user/User.php',
         'wzorce\\observer\\user\\UserObserver' => __DIR__ . '/../..' . '/observer/user/UserObserver.php',
         'wzorce\\strategy\\behavioral\\state\\Angry' => __DIR__ . '/../..' . '/strategy/behavioral/state/Angry.php',

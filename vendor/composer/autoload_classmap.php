@@ -94,6 +94,7 @@ return array(
     'wzorce\\observer\\splobserver\\LoginObserver' => $baseDir . '/observer/splobserver/LoginObserver.php',
     'wzorce\\observer\\splobserver\\SecurityMonitor' => $baseDir . '/observer/splobserver/SecurityMonitor.php',
     'wzorce\\observer\\user\\AddToMailSth' => $baseDir . '/observer/user/AddToMailSth.php',
+    'wzorce\\observer\\user\\LoggerMail' => $baseDir . '/observer/user/LoggerMail.php',
     'wzorce\\observer\\user\\User' => $baseDir . '/observer/user/User.php',
     'wzorce\\observer\\user\\UserObserver' => $baseDir . '/observer/user/UserObserver.php',
     'wzorce\\strategy\\behavioral\\state\\Angry' => $baseDir . '/strategy/behavioral/state/Angry.php',

@@ -22,11 +22,11 @@ abstract class UserObserver implements \SplObserver
     public function update(SplSubject $subject)
     {
       if ($subject == $this->user) {
-            $this->doUpdate($subject);
+            $this->changeMail($subject);
       }
     }
 
-    public abstract function doUpdate(User $user);
+    public abstract function changeMail(User $user);
 
 
 }

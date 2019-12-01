@@ -12,7 +12,10 @@ ini_set('display_errors', 1);
 
 use wzorce\observer\user\User;
 use wzorce\observer\user\AddToMailSth;
+use wzorce\observer\user\LoggerMail;
 $user = new User();
 $addtoMailSth = new AddToMailSth($user);
+$loggerMail = new LoggerMail($user);
 $user->attach($addtoMailSth);
+$user->attach($loggerMail);
 $user->changeEmail("adam@crafter.net.pl");
