@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abstracter/Drink/Coffee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstracter/Drink/Drink.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstracter/Drink/Tea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstracter/Drink/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/dzialania/Dzialanie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/dzialania/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/dzialania/strategy/CountInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/dzialania/strategy/MinusCount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/dzialania/strategy/MultipleCount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/dzialania/strategy/PlusCount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/AVQuestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/Question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/TestQuestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/mark/Marker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/mark/MatchMarker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/mark/RegexpMarker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/question/mark/SimpleMarker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/Angry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/Happy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/Mood.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/Neutral.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/PersonInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/behavioral/state/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstracter/Animal/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/abstracter/Animal/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstracter/Animal/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/abstracter/Animal/Dog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstracter/Animal/Lion.php" beforeDir="false" afterPath="$PROJECT_DIR$/abstracter/Animal/Lion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstracter/Animal/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/abstracter/Animal/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -61,24 +46,24 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy/dzialania/strategy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy/behavioral/state" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/strategy/behavioral/state" />
       <recent name="$PROJECT_DIR$/strategy/dzialania/strategy" />
       <recent name="$PROJECT_DIR$/strategy/dzialania" />
       <recent name="$PROJECT_DIR$/strategy/question" />
       <recent name="$PROJECT_DIR$/abstracter/Drink" />
-      <recent name="$PROJECT_DIR$/abstracter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/strategy/behavioral/state" />
       <recent name="$PROJECT_DIR$/abstracter/Animal" />
       <recent name="$PROJECT_DIR$/fasada/example1/subsystem" />
       <recent name="$PROJECT_DIR$/decorator/booking/rooms" />
       <recent name="$PROJECT_DIR$/composite/units/unit" />
-      <recent name="$PROJECT_DIR$/factory/civilization/Sea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +101,7 @@
       <workItem from="1574591101570" duration="2160000" />
       <workItem from="1574701581098" duration="2468000" />
       <workItem from="1574878370879" duration="2471000" />
-      <workItem from="1575047055925" duration="2354000" />
+      <workItem from="1575047055925" duration="5918000" />
     </task>
     <servers />
   </component>
@@ -158,6 +143,11 @@
           <url>file://$PROJECT_DIR$/nastyboss/NastyBoss.php</url>
           <line>15</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/strategy/behavioral/state/Angry.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
