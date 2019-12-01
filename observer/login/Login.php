@@ -45,6 +45,8 @@ class Login implements Observable
        {
            $observer->update($this);
        }
+
+       dump($this->observers);
     }
 
 

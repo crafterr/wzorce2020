@@ -82,6 +82,7 @@ return array(
     'wzorce\\nastyboss\\Employee' => $baseDir . '/nastyboss/Employee.php',
     'wzorce\\nastyboss\\Minion' => $baseDir . '/nastyboss/Minion.php',
     'wzorce\\nastyboss\\NastyBoss' => $baseDir . '/nastyboss/NastyBoss.php',
+    'wzorce\\observer\\login\\AnotherLogger' => $baseDir . '/observer/login/AnotherLogger.php',
     'wzorce\\observer\\login\\GeneralLogger' => $baseDir . '/observer/login/GeneralLogger.php',
     'wzorce\\observer\\login\\Login' => $baseDir . '/observer/login/Login.php',
     'wzorce\\observer\\login\\SecurityMonitor' => $baseDir . '/observer/login/SecurityMonitor.php',

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a3d0a7-153f-4cc2-a15c-997a297e9133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/observer/login/GeneralLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/login/Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/login/SecurityMonitor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/login/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/login/observer/LoginObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/login/observer/Observable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/login/observer/Observer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/observer/login/AnotherLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/observer/login/AnotherLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/observer/login/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/observer/login/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/observer/login/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/observer/login/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -102,7 +97,7 @@
       <workItem from="1574591101570" duration="2160000" />
       <workItem from="1574701581098" duration="2468000" />
       <workItem from="1574878370879" duration="2471000" />
-      <workItem from="1575047055925" duration="8780000" />
+      <workItem from="1575047055925" duration="9670000" />
     </task>
     <servers />
   </component>

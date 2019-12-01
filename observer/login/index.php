@@ -13,10 +13,12 @@ ini_set('display_errors', 1);
 use wzorce\observer\login\Login;
 use wzorce\observer\login\GeneralLogger;
 use wzorce\observer\login\SecurityMonitor;
+use wzorce\observer\login\AnotherLogger;
 $login = new Login();
 
 
 new GeneralLogger($login);
 new SecurityMonitor($login);
+new AnotherLogger($login);
 
 $login->handleLogin('crafter','fender','127.0.0.1');

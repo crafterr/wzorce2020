@@ -113,6 +113,7 @@ class ComposerStaticInit570744a6db0d51d6322e4b44b0bc0df1
         'wzorce\\nastyboss\\Employee' => __DIR__ . '/../..' . '/nastyboss/Employee.php',
         'wzorce\\nastyboss\\Minion' => __DIR__ . '/../..' . '/nastyboss/Minion.php',
         'wzorce\\nastyboss\\NastyBoss' => __DIR__ . '/../..' . '/nastyboss/NastyBoss.php',
+        'wzorce\\observer\\login\\AnotherLogger' => __DIR__ . '/../..' . '/observer/login/AnotherLogger.php',
         'wzorce\\observer\\login\\GeneralLogger' => __DIR__ . '/../..' . '/observer/login/GeneralLogger.php',
         'wzorce\\observer\\login\\Login' => __DIR__ . '/../..' . '/observer/login/Login.php',
         'wzorce\\observer\\login\\SecurityMonitor' => __DIR__ . '/../..' . '/observer/login/SecurityMonitor.php',
