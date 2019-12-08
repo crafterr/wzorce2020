@@ -4,6 +4,9 @@
 namespace wzorce\visitor\units\unit;
 
 
+use wzorce\visitor\units\Army;
+use wzorce\visitor\units\ArmyVisitor;
+
 abstract class Unit
 {
     public function addUnit(Unit $unit) {
@@ -24,6 +27,28 @@ abstract class Unit
         $txtout .= get_class($this).": ";
         $txtout .= "siła rażenia: ".$this->bombardStrength()."\n";
         return $txtout;
+    }
+
+    public function accept(ArmyVisitor $visitor) {
+        $refthis = new \ReflectionClass(get_class($this));
+        $method = "visit.".$refthis->getShortName();
+        $visitor->$method($this);
+    }
+
+    /**
+     * @param $depth
+     */
+    protected function setDepth($depth)
+    {
+        $this->depth=$depth;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDepth()
+    {
+        return $this->depth;
     }
 
 }
