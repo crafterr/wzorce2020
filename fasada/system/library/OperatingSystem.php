@@ -1,7 +1,10 @@
 <?php
 
+namespace wzorce\fasada\system\library;
 
-class OperatingSystem
+interface OperatingSystem
 {
+    public function halt();
 
+    public function getName(): string;
 }
